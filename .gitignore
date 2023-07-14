@@ -1,0 +1,12 @@
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+*.sublime-project
+*.sublime-workspace
+*.vscode

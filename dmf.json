@@ -1,0 +1,187 @@
+[
+  {
+    "language": "Python",
+    "framework": [
+      {
+        "name": "pip",
+        "dmf": "requirements.txt",
+        "extra": []
+      },
+      {
+        "name": "pipenv",
+        "dmf": "Pipfile",
+        "extra": ["Pipfile.lock"]
+      },
+      {
+        "name": "poetry",
+        "dmf": "pyproject.toml",
+        "extra": ["poetry.lock"]
+      }
+    ]
+  },
+  {
+    "language": "Ruby",
+    "framework": [
+      {
+        "name": "RubyGems",
+        "dmf": "Gemfile",
+        "extra": ["Gemfile.lock"]
+      },
+      {
+        "name": "Bundler",
+        "dmf": "Gemfile",
+        "extra": ["Gemfile.lock"]
+      }
+    ]
+  },
+  {
+    "language": "PHP",
+    "framework": [
+      {
+        "name": "Composer",
+        "dmf": "composer.json",
+        "extra": ["composer.lock"]
+      }
+    ]
+  },
+  {
+    "language": "Go",
+    "framework": [
+      {
+        "name": "Go Modules",
+        "dmf": "go.mod",
+        "extra": ["go.sum"]
+      },
+      {
+        "name": "Glide",
+        "dmf": "glide.yaml",
+        "extra": ["glide.lock"]
+      }
+    ]
+  },
+  {
+    "language": "Rust",
+    "framework": [
+      {
+        "name": "Cargo",
+        "dmf": "Cargo.toml",
+        "extra": ["Cargo.lock"]
+      }
+    ]
+  },
+  {
+    "language": "Scala",
+    "framework": [
+      {
+        "name": "sbt",
+        "dmf": "build.sbt",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "language": "Swift",
+    "framework": [
+      {
+        "name": "Swift Package Manager",
+        "dmf": "Package.swift",
+        "extra": []
+      },
+      {
+        "name": "CocoaPods",
+        "dmf": "Podfile",
+        "extra": ["Podfile.lock"]
+      },
+      {
+        "name": "Carthage",
+        "dmf": "Cartfile",
+        "extra": ["Cartfile.resolved"]
+      }
+    ]
+  },
+  {
+    "language": "Kotlin",
+    "framework": [
+      {
+        "name": "Gradle",
+        "dmf": "build.gradle.kts",
+        "extra": ["settings.gradle.kts", "gradle.properties"]
+      }
+    ]
+  },
+  {
+    "language": "C#",
+    "framework": [
+      {
+        "name": "NuGet",
+        "dmf": "packages.config",
+        "extra": []
+      },
+      {
+        "name": "Paket",
+        "dmf": "paket.dependencies",
+        "extra": ["paket.lock"]
+      }
+    ]
+  },
+  {
+    "language": "Haskell",
+    "framework": [
+      {
+        "name": "Cabal",
+        "dmf": "*.cabal",
+        "extra": []
+      },
+      {
+        "name": "Stack",
+        "dmf": "stack.yaml",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "language": "Dart",
+    "framework": [
+      {
+        "name": "Pub",
+        "dmf": "pubspec.yaml",
+        "extra": ["pubspec.lock"]
+      }
+    ]
+  },
+  {
+    "language": "Elm",
+    "framework": [
+      {
+        "name": "Elm",
+        "dmf": "elm.json",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "language": "Elixir",
+    "framework": [
+      {
+        "name": "Hex",
+        "dmf": "mix.exs",
+        "extra": ["mix.lock"]
+      }
+    ]
+  },
+  {
+    "language": "TypeScript",
+    "framework": [
+      {
+        "name": "npm",
+        "dmf": "package.json",
+        "extra": ["package-lock.json"]
+      },
+      {
+        "name": "yarn",
+        "dmf": "package.json",
+        "extra": ["yarn.lock"]
+      }
+    ]
+  }
+]
