@@ -183,5 +183,20 @@
         "extra": ["yarn.lock"]
       }
     ]
+  },
+  {
+    "language": "Java",
+    "framework": [
+      {
+        "name": "Maven",
+        "dmf": "pom.xml",
+        "extra": ["settings.xml"]
+      },
+      {
+        "name": "Gradle",
+        "dmf": "build.gradle",
+        "extra": ["settings.gradle", "gradle.properties"]
+      }
+    ]
   }
 ]
