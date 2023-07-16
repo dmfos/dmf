@@ -5,17 +5,17 @@
       {
         "name": "pip",
         "dmf": "requirements.txt",
-        "extra": []
+        "extras": []
       },
       {
         "name": "pipenv",
         "dmf": "Pipfile",
-        "extra": ["Pipfile.lock"]
+        "extras": ["Pipfile.lock"]
       },
       {
         "name": "poetry",
         "dmf": "pyproject.toml",
-        "extra": ["poetry.lock"]
+        "extras": ["poetry.lock"]
       }
     ]
   },
@@ -25,12 +25,12 @@
       {
         "name": "RubyGems",
         "dmf": "Gemfile",
-        "extra": ["Gemfile.lock"]
+        "extras": ["Gemfile.lock"]
       },
       {
         "name": "Bundler",
         "dmf": "Gemfile",
-        "extra": ["Gemfile.lock"]
+        "extras": ["Gemfile.lock"]
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "name": "Composer",
         "dmf": "composer.json",
-        "extra": ["composer.lock"]
+        "extras": ["composer.lock"]
       }
     ]
   },
@@ -50,12 +50,12 @@
       {
         "name": "Go Modules",
         "dmf": "go.mod",
-        "extra": ["go.sum"]
+        "extras": ["go.sum"]
       },
       {
         "name": "Glide",
         "dmf": "glide.yaml",
-        "extra": ["glide.lock"]
+        "extras": ["glide.lock"]
       }
     ]
   },
@@ -65,7 +65,7 @@
       {
         "name": "Cargo",
         "dmf": "Cargo.toml",
-        "extra": ["Cargo.lock"]
+        "extras": ["Cargo.lock"]
       }
     ]
   },
@@ -75,7 +75,7 @@
       {
         "name": "sbt",
         "dmf": "build.sbt",
-        "extra": []
+        "extras": []
       }
     ]
   },
@@ -85,17 +85,17 @@
       {
         "name": "Swift Package Manager",
         "dmf": "Package.swift",
-        "extra": []
+        "extras": []
       },
       {
         "name": "CocoaPods",
         "dmf": "Podfile",
-        "extra": ["Podfile.lock"]
+        "extras": ["Podfile.lock"]
       },
       {
         "name": "Carthage",
         "dmf": "Cartfile",
-        "extra": ["Cartfile.resolved"]
+        "extras": ["Cartfile.resolved"]
       }
     ]
   },
@@ -105,7 +105,7 @@
       {
         "name": "Gradle",
         "dmf": "build.gradle.kts",
-        "extra": ["settings.gradle.kts", "gradle.properties"]
+        "extras": ["settings.gradle.kts", "gradle.properties"]
       }
     ]
   },
@@ -115,12 +115,12 @@
       {
         "name": "NuGet",
         "dmf": "packages.config",
-        "extra": []
+        "extras": []
       },
       {
         "name": "Paket",
         "dmf": "paket.dependencies",
-        "extra": ["paket.lock"]
+        "extras": ["paket.lock"]
       }
     ]
   },
@@ -130,12 +130,12 @@
       {
         "name": "Cabal",
         "dmf": "*.cabal",
-        "extra": []
+        "extras": []
       },
       {
         "name": "Stack",
         "dmf": "stack.yaml",
-        "extra": []
+        "extras": []
       }
     ]
   },
@@ -145,7 +145,7 @@
       {
         "name": "Pub",
         "dmf": "pubspec.yaml",
-        "extra": ["pubspec.lock"]
+        "extras": ["pubspec.lock"]
       }
     ]
   },
@@ -155,7 +155,7 @@
       {
         "name": "Elm",
         "dmf": "elm.json",
-        "extra": []
+        "extras": []
       }
     ]
   },
@@ -165,7 +165,7 @@
       {
         "name": "Hex",
         "dmf": "mix.exs",
-        "extra": ["mix.lock"]
+        "extras": ["mix.lock"]
       }
     ]
   },
@@ -175,12 +175,12 @@
       {
         "name": "npm",
         "dmf": "package.json",
-        "extra": ["package-lock.json"]
+        "extras": ["package-lock.json"]
       },
       {
         "name": "yarn",
         "dmf": "package.json",
-        "extra": ["yarn.lock"]
+        "extras": ["yarn.lock"]
       }
     ]
   },
@@ -190,12 +190,12 @@
       {
         "name": "Maven",
         "dmf": "pom.xml",
-        "extra": ["settings.xml"]
+        "extras": ["settings.xml"]
       },
       {
         "name": "Gradle",
         "dmf": "build.gradle",
-        "extra": ["settings.gradle", "gradle.properties"]
+        "extras": ["settings.gradle", "gradle.properties"]
       }
     ]
   }
