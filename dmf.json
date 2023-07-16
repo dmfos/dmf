@@ -1,7 +1,7 @@
 [
   {
     "language": "Python",
-    "framework": [
+    "frameworks": [
       {
         "name": "pip",
         "dmf": "requirements.txt",
@@ -21,7 +21,7 @@
   },
   {
     "language": "Ruby",
-    "framework": [
+    "frameworks": [
       {
         "name": "RubyGems",
         "dmf": "Gemfile",
@@ -36,7 +36,7 @@
   },
   {
     "language": "PHP",
-    "framework": [
+    "frameworks": [
       {
         "name": "Composer",
         "dmf": "composer.json",
@@ -46,7 +46,7 @@
   },
   {
     "language": "Go",
-    "framework": [
+    "frameworks": [
       {
         "name": "Go Modules",
         "dmf": "go.mod",
@@ -61,7 +61,7 @@
   },
   {
     "language": "Rust",
-    "framework": [
+    "frameworks": [
       {
         "name": "Cargo",
         "dmf": "Cargo.toml",
@@ -71,7 +71,7 @@
   },
   {
     "language": "Scala",
-    "framework": [
+    "frameworks": [
       {
         "name": "sbt",
         "dmf": "build.sbt",
@@ -81,7 +81,7 @@
   },
   {
     "language": "Swift",
-    "framework": [
+    "frameworks": [
       {
         "name": "Swift Package Manager",
         "dmf": "Package.swift",
@@ -101,7 +101,7 @@
   },
   {
     "language": "Kotlin",
-    "framework": [
+    "frameworks": [
       {
         "name": "Gradle",
         "dmf": "build.gradle.kts",
@@ -111,7 +111,7 @@
   },
   {
     "language": "C#",
-    "framework": [
+    "frameworks": [
       {
         "name": "NuGet",
         "dmf": "packages.config",
@@ -126,7 +126,7 @@
   },
   {
     "language": "Haskell",
-    "framework": [
+    "frameworks": [
       {
         "name": "Cabal",
         "dmf": "*.cabal",
@@ -141,7 +141,7 @@
   },
   {
     "language": "Dart",
-    "framework": [
+    "frameworks": [
       {
         "name": "Pub",
         "dmf": "pubspec.yaml",
@@ -151,7 +151,7 @@
   },
   {
     "language": "Elm",
-    "framework": [
+    "frameworks": [
       {
         "name": "Elm",
         "dmf": "elm.json",
@@ -161,7 +161,7 @@
   },
   {
     "language": "Elixir",
-    "framework": [
+    "frameworks": [
       {
         "name": "Hex",
         "dmf": "mix.exs",
@@ -171,7 +171,7 @@
   },
   {
     "language": "TypeScript",
-    "framework": [
+    "frameworks": [
       {
         "name": "npm",
         "dmf": "package.json",
@@ -186,7 +186,7 @@
   },
   {
     "language": "Java",
-    "framework": [
+    "frameworks": [
       {
         "name": "Maven",
         "dmf": "pom.xml",
