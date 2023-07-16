@@ -5,7 +5,7 @@
       {
         "name": "pip",
         "dmf": "requirements.txt",
-        "extras": []
+        "extras": ["dev-requirements.txt"]
       },
       {
         "name": "pipenv",
